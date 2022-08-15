@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3><div class="font">HOME</div></h3>
+                <h2 class="score" id="scoreHome"> <div class="font">0</div></h2>
+                   <div>
+                    <button onclick = "add1home()"> <div class="font">+1</div></button>
+                    <button onclick = "add2home()"> <div class="font">+2</div></button>
+                    <button onclick = "add3home()"> <div class="font">+3</div></button>
+                </div>
+            </div>
+            <div>
+                <h3><div class="font">VISITOR</div></h3>
+                <h2 class="score" id="scoreVisitor"> <div class="font">0</div></h2>
+                 <div>
+                    <button onclick = "add1visitor()"> <div class="font">+1</div></button>
+                    <button onclick = "add2visitor()"> <div class="font">+2</div></button>
+                    <button onclick = "add3visitor()"> <div class="font">+3</div></button>
+                </div>
+            </div>
+            <h4 id= "message"><div class="font">-</div></h4>
+            <single-button onclick = "gameOver()"> <div class="font">GAME OVER</div></single-button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
